@@ -22,11 +22,11 @@
 
 ## Instructions
 
-- [X] Find A Partner
-- [X] Only one of you can read the following instructions.
-- [X] Every game is 10 seconds long.
-- [X] Moles jumps out a random hole for a random time using the up class provided.
-- [X] Every time the user press the a mole he get a point.
+- [ ] Find A Partner
+- [ ] Only one of you can read the following instructions.
+- [ ] Every game is 10 seconds long.
+- [ ] Moles jumps out a random hole for a random time using the up class provided.
+- [ ] Every time the user press the a mole he get a point.
 
 ---
 

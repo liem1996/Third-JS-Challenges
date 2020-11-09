@@ -1,36 +1,12 @@
 
 const api = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
 
-const cities = [];
-fetch(api)
-  .then(blob => blob.json())
-  .then(data => cities.push(...data));
-
-function findMatches(wordToMatch, cities) {
-  return cities.filter(place => {
-    const regex = new RegExp(wordToMatch, 'gi');
-    return place.city.match(regex) || place.state.match(regex)
-  });
-}
-
-function displayMatches(event) {
-  const value = event.target.value;
-  const matchArray = findMatches(value, cities);
-  const html = matchArray.map(place => {
-    const regex = new RegExp(value, 'gi');
-    const cityName = place.city.replace(regex, `<span class="hl">${value}</span>`);
-    const stateName = place.state.replace(regex, `<span class="hl">${value}</span>`);
-    return `
-      <li>
-        <span class="name">${cityName}, ${stateName}</span>
-      </li>
-    `;
-  }).join('');
-  suggestions.innerHTML = html;
-}
-
-const searchInput = document.querySelector('.search');
-const suggestions = document.querySelector('.suggestions');
-
-searchInput.addEventListener('change', displayMatches);
-searchInput.addEventListener('keyup', displayMatches);
+/* 
+  In order to find a pattern in a string you will mostly want to use regex and string.match method.
+  You can create a new regex with a custom string by using the RegExp constructor and apply to it the g an i flags,
+  g for global and i in order to ignore case. 
+  Example :
+    const string = '#$)($#)(hey)#$)(@02)';
+    const patternToFind = new RegExp('hey','gi');
+    return string.match(patternToFine) // true;
+*/

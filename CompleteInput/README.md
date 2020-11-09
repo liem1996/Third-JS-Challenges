@@ -23,11 +23,11 @@
 
 ## Instructions
 
-- [X] Find A Partner
-- [X] Only one of you can read the following instructions.
-- [X] fetch data from the api provided.
-- [X] Every time the user press a character show him suggested results based on the character he inserted.
-- [X] Pressed Character will be highlighted with the hl class 
+- [ ] Find A Partner
+- [ ] Only one of you can read the following instructions.
+- [ ] fetch data from the api provided.
+- [ ] Every time the user press a character show him suggested results based on the character he inserted.
+- [ ] Pressed Character will be highlighted with the hl class 
 
 ---
 
