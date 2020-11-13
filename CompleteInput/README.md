@@ -24,8 +24,9 @@
 ## Instructions
 
 - [ ] Find A Partner
-- [ ] Only one of you can read the following instructions.
-- [ ] Look at the following gif and create short spesifcation for an application that match the functionality presented.
+- [ ] Only one of you can read the following instructions
+- [ ] Look at the following gif and create short spesifcati0on for an application that match the functionality presented.
+- [ ] Present your partner with your spesifcation (verbly) and hope he will be able to solve it.
 
 ---
 
