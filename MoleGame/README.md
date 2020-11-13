@@ -22,10 +22,10 @@
 
 ## Instructions
 
-- [X] Find A Partner
-- [X] Only one of you can read the following instructions
-- [X] Look at the following gif and create short spesifcati0on for an application that match the functionality presented. ( you have 15 minuets to complete this task )
-- [X] Present your partner with your spesifcation (verbly) and hope he will be able to solve it. ( you have 10 minuets to explain your partner what to do ) 
+- [ ] Find A Partner
+- [ ] Only one of you can read the following instructions
+- [ ] Look at the following gif and create short spesifcati0on for an application that match the functionality presented. ( you have 15 minuets to complete this task )
+- [ ] Present your partner with your spesifcation (verbly) and hope he will be able to solve it. ( you have 10 minuets to explain your partner what to do ) 
 
 ---
 
